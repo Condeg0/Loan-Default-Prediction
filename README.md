@@ -1,8 +1,6 @@
 # Loan-Default-Prediction
 
-![Python](https://img.shields.io/badge/Python-3.9%2B-blue)
 ![Scikit-Learn](https://img.shields.io/badge/Sklearn-Pipeline-orange)
-![Status](https://img.shields.io/badge/Status-Portfolio_Ready-success)
 
 ## 📌 Executive Summary
 **Goal:** Optimize a consumer lending portfolio by replacing naive "Accuracy" metrics with a profit-maximization strategy.
@@ -49,6 +47,7 @@ jupyter nbconvert --to html notebooks/02_model_development.ipynb
 
 
 # 📂 Repository Structure
+
 ├── data/               # Raw and processed financial data
 ├── notebooks/          # Analysis and experimentation (EDA, Modeling)
 ├── src/                # Production source code
