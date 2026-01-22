@@ -46,14 +46,14 @@ jupyter nbconvert --to html notebooks/02_model_development.ipynb
 ```
 
 
-# 📂 Repository Structure
+## 📂 Repository Structure
 
-├── data/               # Raw and processed financial data
-├── notebooks/          # Analysis and experimentation (EDA, Modeling)
-├── src/                # Production source code
-│   ├── __init__.py     # Package initialization
-│   ├── config.py       # Centralized configuration (Assumptions, Constants)
-│   ├── data_pipeline.py# Feature Engineering & Preprocessing Pipelines
-│   ├── evaluation.py   # Profit & Logic Calculations
-│   └── training.py     # Model Training & Tuning Logic
-└── README.md           # Project Documentation
+├── data/               
+├── notebooks/          
+├── src/                
+│   ├── __init__.py     
+│   ├── config.py       
+│   ├── data_pipeline.py
+│   ├── evaluation.py  
+│   └── training.py     
+└── README.md           
